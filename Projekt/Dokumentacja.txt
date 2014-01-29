@@ -1,0 +1,10 @@
+Uruchom:
+	Nowy - tworzy nowy tag, dziêki któremu kreowana jest osobowosc twitterowa
+	Poprzedni - pozwala wybrac poprzednio utworzony tag
+
+Start - zbiera informacje z twittera na podstawie "Obecnego tagu". Nale¿y wpisaæ minimalny czas dzia³ania. 
+Po odpaleniu "start" okno programu staje siê niewidzialne i pojawia siê dopiero po zakoñczeniu dzia³ania funkcji "start".
+
+Oblicz - liczy skutecznosc wybranego tagu.
+
+Na standardowe wyjœcie program wypisuje ró¿ne informacje dotycz¹ce dzia³ania programu. 
