@@ -3,7 +3,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry kind="con" path="org.dyno.visual.swing.VS_LIBRARY/layoutext"/>
-	<classpathentry kind="lib" path="C:/Users/Żaneta/Documents/Studia/Bazy danych/Projekt bazy danych/sqlite-jdbc-3.7.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Żaneta/Documents/Studia/Bazy danych/Projekt bazy danych/twitter4j-core-3.0.5.jar"/>
+	<classpathentry kind="lib" path="/home/zaneta/1/Projekt/Biblioteki/sqlite-jdbc-3.7.2.jar"/>
+	<classpathentry kind="lib" path="/home/zaneta/1/Projekt/Biblioteki/twitter4j-core-3.0.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

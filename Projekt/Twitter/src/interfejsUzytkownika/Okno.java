@@ -1,6 +1,7 @@
 package interfejsUzytkownika;
 
 import java.awt.Component;
+import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.Timestamp;
@@ -18,6 +19,7 @@ import javax.swing.JTextField;
 import javax.swing.JToggleButton;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
+import javax.swing.text.Style;
 
 import obslugaTwittera.Tweetomat;
 
@@ -62,14 +64,14 @@ public class Okno extends JFrame implements ActionListener{
 		add(getJLabel0(), new Constraints(new Leading(44, 12, 12), new Leading(51, 12, 12)));
 		add(getJToggleButton0(), new Constraints(new Leading(258, 78, 10, 10), new Leading(46, 12, 12)));
 		add(getJLabel1(), new Constraints(new Leading(44, 12, 12), new Leading(108, 10, 10)));
-		add(getJComboBox0(), new Constraints(new Leading(152, 300, 12, 12), new Leading(104, 50, 50)));
+		add(getJComboBox0(), new Constraints(new Leading(200, 350, 12, 12), new Leading(104, 50, 50)));
 		add(getJButton0(), new Constraints(new Leading(261, 77, 10, 10), new Leading(155, 10, 10)));
 		add(getJLabel2(), new Constraints(new Leading(208, 12, 12), new Leading(160, 12, 12)));
-		add(getTextMin(), new Constraints(new Leading(420, 40, 22, 22), new Leading(48, 15, 15)));
-		add(getTextGodz(), new Constraints(new Leading(370, 40, 22, 22), new Leading(48, 15, 15)));
+		add(getTextMin(), new Constraints(new Leading(450, 40, 22, 22), new Leading(48, 15, 15)));
+		add(getTextGodz(), new Constraints(new Leading(400, 40, 22, 22), new Leading(48, 15, 15)));
 		add(getLabelCzas(), new Constraints(new Leading(350, 200, 22, 22), new Leading(30, 15, 15)));
 		setJMenuBar(getJMenuBar0());
-		setSize(500, 240);
+		setSize(600, 240);
 		this.jButton0.addActionListener(this);
 		this.jMenuItem0.addActionListener(this);
 		this.jMenuItem1.addActionListener(this);
